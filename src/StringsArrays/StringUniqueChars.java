@@ -20,6 +20,7 @@ public class StringUniqueChars {
     }
 
     /*
+        Approach - HashSet
         Time Complexity o(n)
      */
     public static boolean isUnique(String str) {
@@ -37,6 +38,7 @@ public class StringUniqueChars {
     }
 
     /*
+        Approach- Boolean Array
         If String contains only ASCII characters
          All the array elements are initially set to false.
          As we iterate over the string, set true at the index equal to the int value of the character.
@@ -91,6 +93,7 @@ public class StringUniqueChars {
     }
 
     /*
+        Approach --- Bit Vector
         Time Complexity O(n)
         ASCII for lower case --> 97 to 122
         ASCII for upper case --> 65 to 90
